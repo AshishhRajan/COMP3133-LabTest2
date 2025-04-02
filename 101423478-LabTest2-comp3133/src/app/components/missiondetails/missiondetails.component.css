@@ -1,0 +1,165 @@
+.mission-details-container {
+  padding: 40px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.mat-icon {
+  margin-right: 8px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.error-message {
+  color: #f44336;
+  background-color: #ffebee;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mission-detail-card {
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.mat-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mission-patch {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.mat-card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mat-card-subtitle {
+  color: #757575;
+  font-size: 14px;
+}
+
+.mission-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mission-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.mission-section {
+  margin-top: 20px;
+}
+
+.mission-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.mission-section p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+mat-divider {
+  margin: 20px 0;
+  background-color: #ddd;
+}
+
+mat-list-item {
+  font-size: 14px;
+  color: #555;
+}
+
+mat-list-item span {
+  font-weight: 500;
+}
+
+.mission-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.mission-links a:hover {
+  opacity: 0.8;
+}
+
+.mission-links a mat-icon {
+  margin-right: 8px;
+}
+
+.mission-links .article-btn {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.mission-links .wiki-btn {
+  background-color: #03a9f4;
+  color: #fff;
+}
+
+.mission-links .video-btn {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .mission-detail-card {
+    padding: 15px;
+  }
+
+  .mission-media {
+    justify-content: center;
+  }
+
+  .mission-links a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mission-section h3 {
+    font-size: 16px;
+  }
+}
